@@ -23,3 +23,22 @@ function mostFrequent(arr) {
 let arr = [2,3,4,2,4,2,5,62,6];
 let v = mostFrequent(arr); 
 console.log(v); 
+
+
+//function that returns largest word of a string:
+
+function longest (string){
+  let words = string.split(" ");
+  let longestWord = "";
+  for (let i = 0; i<words.length ;i++){
+    if (words[i].length>longestWord.length){
+      longestWord = words[i];
+  
+    }
+
+  }
+  return longestWord;
+}
+
+const str = longest("A quick brown fox jumped over a lazy dog");
+ console.log(str);
