@@ -44,11 +44,21 @@
 //  console.log(str);
 
 //  table of a give number 
-const table =  (n) => {
-  for(let i = 1; i <= 10; i++){
-    console.log(`${n} x ${i} = ${n * i}`)
+// const table =  (n) => {
+//   for(let i = 1; i <= 10; i++){
+//     console.log(`${n} x ${i} = ${n * i}`)
+// }
+
+// }
+
+// table(3);
+
+//function to reverse the given string:
+
+function reverseString(n){
+  
+  return n.split('').reverse().join('');
 }
 
-}
-
-table(3);
+let a = reverseString("Aditya");
+console.log(a);
