@@ -1,5 +1,5 @@
 
-//Max occurence js Function =
+//1).Max occurence js Function =
 
 // function mostFrequent(arr) {
 //     let count = {};
@@ -25,7 +25,7 @@
 // console.log(v); 
 
 
-// //function that returns largest word of a string:
+ //2).function that returns largest word of a string:
 
 // function longest (string){
 //   let words = string.split(" ");
@@ -43,7 +43,7 @@
 // const str = longest("A quick brown fox jumped over a lazy dog");
 //  console.log(str);
 
-//  table of a give number 
+// 3). table of a give number 
 // const table =  (n) => {
 //   for(let i = 1; i <= 10; i++){
 //     console.log(`${n} x ${i} = ${n * i}`)
@@ -53,7 +53,7 @@
 
 // table(3);
 
-//function to reverse the given string:
+//4). function to reverse the given string:
 
 // function reverseString(n){
   
@@ -65,7 +65,7 @@
 
 //to find the sum of an array 
 
-// function sumArray(array) {
+// 5).function sumArray(array) {
 //   let sum = 0;
 //   for (let i = 0; i < array.length; i++) {
 //     sum += array[i];
@@ -77,4 +77,16 @@
 
 
 // console.log(sumArray(a));
+
+
+//6). to reverse an array and join them and console as a string :
+
+// function reverseArray(array){
+//     let result = array.reverse().join(',');
+//     console.log(result);
+// }
+// let B = [23,34,32,25];
+
+// console.log(reverseArray(B));
+
 
