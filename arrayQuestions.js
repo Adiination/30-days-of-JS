@@ -55,10 +55,11 @@
 
 //function to reverse the given string:
 
-function reverseString(n){
+// function reverseString(n){
   
-  return n.split('').reverse().join('');
-}
+//   return n.split('').reverse().join('');
+// }
 
-let a = reverseString("Aditya");
-console.log(a);
+// let a = reverseString("Aditya");
+// console.log(a);
+
