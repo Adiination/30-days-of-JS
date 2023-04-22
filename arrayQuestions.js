@@ -63,3 +63,18 @@
 // let a = reverseString("Aditya");
 // console.log(a);
 
+//to find the sum of an array 
+
+// function sumArray(array) {
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     sum += array[i];
+//   }
+//   return sum;
+// }
+
+// let a =[45,6,55,45];
+
+
+// console.log(sumArray(a));
+
