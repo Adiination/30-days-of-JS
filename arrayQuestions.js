@@ -89,4 +89,16 @@
 
 // console.log(reverseArray(B));
 
+//7).find the smallest number in an array :
+
+// function minNumber(array){
+
+// return Math.min(...ar);
+
+// }
+
+// let ar = [3,4,4,454,53];
+// console.log(minNumber(ar));
+
+
 
