@@ -101,4 +101,20 @@
 // console.log(minNumber(ar));
 
 
+//**another way
+
+
+// function findLowestNumber(numbers) {
+//     let lowest = numbers[0]; // Assume the first element is the lowest
+  
+//     for (let i = 1; i < numbers.length; i++) {
+//       if (numbers[i] < lowest) {
+//         lowest = numbers[i]; // Update the lowest if we find a smaller number
+//       }
+//     }
+  
+//     return lowest;
+//   }
+
+
 
