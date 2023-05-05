@@ -3,3 +3,10 @@
 // const substr = "brown";
 // const containsSubstr = str.includes(substr);
 // console.log(containsSubstr); 
+
+
+// How do you convert a string to uppercase in JavaScript?
+
+const str = "hello, world!";
+const uppercaseStr = str.toUpperCase();
+console.log(uppercaseStr); // Output: "HELLO, WORLD!"
