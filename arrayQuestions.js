@@ -118,14 +118,14 @@
 
 //8). To check if the array has repetitive numbers.
 
-function containsDuplicate(nums) {
-    const set = new Set(nums);  // create a Set from the input array
-    return set.size !== nums.length;  // if the Set size is less than the array length, then there are duplicates
-  }
+// function containsDuplicate(nums) {
+//     const set = new Set(nums);  // create a Set from the input array
+//     return set.size !== nums.length;  // if the Set size is less than the array length, then there are duplicates
+//   }
   
-// let a = [2,3,2,2,1,43,43,8];
-// console.log(containsDuplicate(a));
-let b = [12,2,3,4,56,43,78];
-console.log(containsDuplicate(b));
+// // let a = [2,3,2,2,1,43,43,8];
+// // console.log(containsDuplicate(a));
+// let b = [12,2,3,4,56,43,78];
+// console.log(containsDuplicate(b));
 
 
