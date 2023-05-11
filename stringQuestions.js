@@ -7,6 +7,6 @@
 
 // How do you convert a string to uppercase in JavaScript?
 
-const str = "hello, world!";
-const uppercaseStr = str.toUpperCase();
-console.log(uppercaseStr); // Output: "HELLO, WORLD!"
+// const str = "hello, world!";
+// const uppercaseStr = str.toUpperCase();
+// console.log(uppercaseStr);
