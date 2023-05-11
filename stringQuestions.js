@@ -10,3 +10,10 @@
 // const str = "hello, world!";
 // const uppercaseStr = str.toUpperCase();
 // console.log(uppercaseStr);
+
+// How do you remove whitespace from the beginning and end of a string in JavaScript?
+
+// const str = "   Hello, World!   ";
+// const trimmedStr = str.trim();
+// console.log(trimmedStr); 
+
