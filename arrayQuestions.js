@@ -1,11 +1,10 @@
-
 //1).Max occurence js Function =
 
 // function mostFrequent(arr) {
 //     let count = {};
 //     let maxCount = 0;
 //     let maxItem = null;
-  
+
 //     for (let item of arr) {
 //       if (!count[item]) {
 //         count[item] = 1;
@@ -17,15 +16,14 @@
 //         maxItem = item;
 //       }
 //     }
-  
+
 //     return maxItem;
 //   }
 // let arr = [2,3,4,2,4,2,5,62,6];
-// let v = mostFrequent(arr); 
-// console.log(v); 
+// let v = mostFrequent(arr);
+// console.log(v);
 
-
- //2).function that returns largest word of a string:
+//2).function that returns largest word of a string:
 
 // function longest (string){
 //   let words = string.split(" ");
@@ -33,7 +31,7 @@
 //   for (let i = 0; i<words.length ;i++){
 //     if (words[i].length>longestWord.length){
 //       longestWord = words[i];
-  
+
 //     }
 
 //   }
@@ -43,7 +41,7 @@
 // const str = longest("A quick brown fox jumped over a lazy dog");
 //  console.log(str);
 
-// 3). table of a give number 
+// 3). table of a give number
 // const table =  (n) => {
 //   for(let i = 1; i <= 10; i++){
 //     console.log(`${n} x ${i} = ${n * i}`)
@@ -56,14 +54,14 @@
 //4). function to reverse the given string:
 
 // function reverseString(n){
-  
+
 //   return n.split('').reverse().join('');
 // }
 
 // let a = reverseString("Aditya");
 // console.log(a);
 
-//to find the sum of an array 
+//to find the sum of an array
 
 // 5).function sumArray(array) {
 //   let sum = 0;
@@ -75,9 +73,7 @@
 
 // let a =[45,6,55,45];
 
-
 // console.log(sumArray(a));
-
 
 //6). to reverse an array and join them and console as a string :
 
@@ -100,19 +96,17 @@
 // let ar = [3,4,4,454,53];
 // console.log(minNumber(ar));
 
-
 //**another way
-
 
 // function findLowestNumber(numbers) {
 //     let lowest = numbers[0]; // Assume the first element is the lowest
-  
+
 //     for (let i = 1; i < numbers.length; i++) {
 //       if (numbers[i] < lowest) {
 //         lowest = numbers[i]; // Update the lowest if we find a smaller number
 //       }
 //     }
-  
+
 //     return lowest;
 //   }
 
@@ -122,7 +116,7 @@
 //     const set = new Set(nums);  // create a Set from the input array
 //     return set.size !== nums.length;  // if the Set size is less than the array length, then there are duplicates
 //   }
-  
+
 // // let a = [2,3,2,2,1,43,43,8];
 // // console.log(containsDuplicate(a));
 // let b = [12,2,3,4,56,43,78];
@@ -141,8 +135,31 @@
 // return count;
 // }
 
-
 // console.log(countn([2,3,4,2,3,5,5,2],4));
 
+//create a js function that Return an array consisting of the largest number from each provided sub-array.
+// For simplicity, the provided array will contain exactly 4 sub-arrays.
 
+// function largestOfFour(arr) {
+//   let maxArr = [];
 
+//   for (let i = 0; i < arr.length; i++) {
+//     let maxNumber = arr[i][0];
+//     for (let j = 0; j < arr[i].length; j++) {
+//       if (arr[i][j] > maxNumber) {
+//         maxNumber = arr[i][j];
+//       }
+//     }
+//     maxArr.push(maxNumber);
+//   }
+//   return maxArr;
+// }
+
+// console.log(
+//   largestOfFour([
+//     [4, 5, 1, 3],
+//     [13, 27, 18, 26],
+//     [32, 35, 37, 39],
+//     [1000, 1001, 857, 1],
+//   ])
+// );
