@@ -179,3 +179,27 @@
 // }
 
 // console.log(findElement([1, 2, 3, 4], (num) => num % 2 === 0));
+
+//Question: Given an array of numbers, write a function to find the two numbers that add up to a given target sum.
+//Return an array containing the indices of the two numbers.
+
+function findTwoNumbers(arr, targetSum) {
+  const numMap = new Map();
+
+  for (let i = 0; i < arr.length; i++) {
+    const complement = targetSum - arr[i];
+
+    if (numMap.has(complement)) {
+      return [numMap.get(complement), i];
+    }
+
+    numMap.set(arr[i], i);
+  }
+
+  return [];
+}
+
+const numbers = [2, 4, 6, 8, 10];
+const target = 12;
+const result = findTwoNumbers(numbers, target);
+console.log(result);
