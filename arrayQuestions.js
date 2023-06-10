@@ -183,23 +183,41 @@
 //Question: Given an array of numbers, write a function to find the two numbers that add up to a given target sum.
 //Return an array containing the indices of the two numbers.
 
-function findTwoNumbers(arr, targetSum) {
-  const numMap = new Map();
+// function findTwoNumbers(arr, targetSum) {
+//   const numMap = new Map();
 
-  for (let i = 0; i < arr.length; i++) {
-    const complement = targetSum - arr[i];
+//   for (let i = 0; i < arr.length; i++) {
+//     const complement = targetSum - arr[i];
 
-    if (numMap.has(complement)) {
-      return [numMap.get(complement), i];
-    }
+//     if (numMap.has(complement)) {
+//       return [numMap.get(complement), i];
+//     }
 
-    numMap.set(arr[i], i);
-  }
+//     numMap.set(arr[i], i);
+//   }
 
-  return [];
-}
+//   return [];
+// }
 
-const numbers = [2, 4, 6, 8, 10];
-const target = 12;
-const result = findTwoNumbers(numbers, target);
-console.log(result);
+// const numbers = [2, 4, 6, 8, 10];
+// const target = 12;
+// const result = findTwoNumbers(numbers, target);
+// console.log(result);
+
+//Q).You are in charge of the cake for a child's birthday. You have decided the cake will have one candle for each year of their total age.
+// They will only be able to blow out the tallest of the candles. Count how many candles are tallest.
+
+// function birthdayCakeCandles(candles) {
+//   let num = Math.max(...candles);
+//   let total = 0;
+
+//   for (let i = 0; i < candles.length; i++) {
+//     if (candles[i] === num) {
+//       total += 1;
+//     }
+//   }
+//   return total;
+// }
+
+// let candles = [2, 3, 4, 5, 5, 6];
+// console.log(birthdayCakeCandles(candles));
