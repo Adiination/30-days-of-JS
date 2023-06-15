@@ -221,3 +221,15 @@
 
 // let candles = [2, 3, 4, 5, 5, 6];
 // console.log(birthdayCakeCandles(candles));
+
+function filterNumbers(arr) {
+  var numbersArray = [];
+
+  for (var i = 0; i < arr.length; i++) {
+    if (typeof arr[i] === "number") {
+      numbersArray.push(arr[i]);
+    }
+  }
+
+  return numbersArray;
+}
