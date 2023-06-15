@@ -222,14 +222,18 @@
 // let candles = [2, 3, 4, 5, 5, 6];
 // console.log(birthdayCakeCandles(candles));
 
-function filterNumbers(arr) {
-  var numbersArray = [];
+//Q).fucntion that removes string from an array(interview Question):
 
-  for (var i = 0; i < arr.length; i++) {
-    if (typeof arr[i] === "number") {
-      numbersArray.push(arr[i]);
-    }
-  }
+// function filterNumbers(arr) {
+//   var numbersArray = [];
 
-  return numbersArray;
-}
+//   for (var i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === "number") {
+//       numbersArray.push(arr[i]);
+//     }
+//   }
+
+//   return numbersArray;
+// }
+
+// console.log(filterNumbers(["true", 5, 23, 67, "34", 78, "4"]));
